@@ -52,7 +52,7 @@ Follow these steps to set up and run the project on your local machine:
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repository/cinescope.git
+   git clone [https://github.com/your-repository/cinescope.git](https://github.com/CodeWithLakhan/CineScope)
    cd cinescope
    ```
 
@@ -91,13 +91,11 @@ Follow these steps to set up and run the project on your local machine:
 ## Screenshots
 
 ### **Wallpapers Page**
-![Wallpapers Page](https://via.placeholder.com/300x600)
+![image](https://github.com/user-attachments/assets/501fb227-e013-4b33-9f12-8e2d01a068d8)
 
-### **Expanded Wallpaper**
-![Expanded Wallpaper](https://via.placeholder.com/300x600)
 
 ### **Ringtones Page**
-![Ringtones Page](https://via.placeholder.com/300x600)
+![image](https://github.com/user-attachments/assets/7abde4b7-ace9-4a17-a7fb-eda83b9982ee)
 
 ---
 
@@ -108,11 +106,8 @@ cinescope/
 ├── lib/
 │   ├── blocs/            # BLoC files for state management
 │   ├── pages/            # Screens (HomePage, LoginPage, RingtonePage, etc.)
-│   ├── widgets/          # Reusable widgets
 │   ├── main.dart         # Entry point of the app
 ├── assets/
-│   ├── ringtones/        # Ringtone files
-│   ├── wallpapers/       # Placeholder for wallpapers (optional)
 ├── android/              # Android-specific files
 ├── ios/                  # iOS-specific files
 ├── pubspec.yaml          # App dependencies and assets registration
@@ -140,24 +135,4 @@ cinescope/
 1. Displays a list of ringtones from local assets.
 2. Allows play/pause for ringtones.
 3. Highlights the currently playing ringtone.
-
----
-
-## Contribution
-
-Contributions are welcome! Feel free to submit a pull request or file an issue for any bugs or feature requests.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Developer
-
-- **Name**: [Your Name](https://github.com/your-profile)
-- **Email**: your.email@example.com
-```
 
