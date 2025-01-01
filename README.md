@@ -54,43 +54,56 @@ Follow these steps to set up and run the project on your local machine:
    ```bash
    git clone https://github.com/your-repository/cinescope.git
    cd cinescope
+   ```
 
-    Install Dependencies:
+2. **Install Dependencies**:
+   ```bash
+   flutter pub get
+   ```
 
-flutter pub get
+3. **Setup API Key**:
+   - Create an account on [TMDB](https://www.themoviedb.org/).
+   - Generate an API key from the developer console.
+   - Add your API key in the code:
+     ```dart
+     final String apiKey = "YOUR_TMDB_API_KEY";
+     ```
 
-Setup API Key:
+4. **Run the App**:
+   - For Android:
+     ```bash
+     flutter run
+     ```
+   - For iOS:
+     ```bash
+     flutter build ios
+     flutter run
+     ```
 
-    Create an account on TMDB.
-    Generate an API key from the developer console.
-    Add your API key in the code:
+5. **Build APK** (Optional):
+   To generate a release APK:
+   ```bash
+   flutter build apk --release
+   ```
 
-    final String apiKey = "YOUR_TMDB_API_KEY";
+---
 
-Run the App:
+## Screenshots
 
-    For Android:
+### **Wallpapers Page**
+![Wallpapers Page](https://via.placeholder.com/300x600)
 
-flutter run
+### **Expanded Wallpaper**
+![Expanded Wallpaper](https://via.placeholder.com/300x600)
 
-For iOS:
+### **Ringtones Page**
+![Ringtones Page](https://via.placeholder.com/300x600)
 
-    flutter build ios
-    flutter run
+---
 
-Build APK (Optional): To generate a release APK:
+## Folder Structure
 
-    flutter build apk --release
-
-Screenshots
-Wallpapers Page
-
-Expanded Wallpaper
-
-Ringtones Page
-
-Folder Structure
-
+```plaintext
 cinescope/
 ├── lib/
 │   ├── blocs/            # BLoC files for state management
@@ -103,27 +116,48 @@ cinescope/
 ├── android/              # Android-specific files
 ├── ios/                  # iOS-specific files
 ├── pubspec.yaml          # App dependencies and assets registration
+```
 
-API Integration
-TMDB API
+---
 
-    The app uses the TMDB API to fetch wallpaper data.
-    Initially, 80 wallpapers are fetched.
-    Clicking "Load More" fetches an additional 80 wallpapers.
+## API Integration
 
-Key Features Breakdown
-Wallpapers
+### **TMDB API**
+- The app uses the TMDB API to fetch wallpaper data.
+- Initially, **80 wallpapers** are fetched.
+- Clicking "Load More" fetches an additional **80 wallpapers.**
 
-    Fetches 80 wallpapers on load.
-    "Load More" fetches 80 additional wallpapers.
-    Clicking an image opens a fullscreen view with a "Set Wallpaper" button.
+---
 
-Ringtones
+## Key Features Breakdown
 
-    Displays a list of ringtones from local assets.
-    Allows play/pause for ringtones.
-    Highlights the currently playing ringtone.
+### **Wallpapers**
+1. Fetches 80 wallpapers on load.
+2. "Load More" fetches 80 additional wallpapers.
+3. Clicking an image opens a fullscreen view with a "Set Wallpaper" button.
 
-Contribution
+### **Ringtones**
+1. Displays a list of ringtones from local assets.
+2. Allows play/pause for ringtones.
+3. Highlights the currently playing ringtone.
+
+---
+
+## Contribution
 
 Contributions are welcome! Feel free to submit a pull request or file an issue for any bugs or feature requests.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Developer
+
+- **Name**: [Your Name](https://github.com/your-profile)
+- **Email**: your.email@example.com
+```
+
