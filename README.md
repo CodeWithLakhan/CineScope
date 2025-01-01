@@ -153,8 +153,3 @@ The TMDB API is seamlessly integrated to fetch high-quality wallpapers dynamical
 ---
 
 
-## Developer
-
-- **Name**: [Your Name](https://github.com/your-profile)
-- **Email**: your.email@example.com
-
