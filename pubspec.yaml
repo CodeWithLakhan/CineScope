@@ -1,0 +1,38 @@
+name: cinescope
+description: "A new Flutter project focused on wallpapers and ringtones."
+
+# Prevent accidental publication to pub.dev
+publish_to: 'none'
+
+# Application versioning
+version: 1.0.0+1
+
+# Flutter SDK version requirement
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+# Dependencies required for your application
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  path_provider: ^2.1.5
+  flutter_bloc:
+  audioplayers: ^6.1.0
+  cupertino_icons:
+
+# Dev dependencies for testing and linting
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true
+
+  # Registering asset directories
+  assets:
+    - assets/iphone.mp3
+    - assets/
+
