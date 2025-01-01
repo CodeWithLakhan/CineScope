@@ -1,3 +1,5 @@
+## Drive Link: https://drive.google.com/drive/folders/1XX0OLcn3alq8GtMd95tQ5xodGJKi1H9l?usp=sharing
+
 # CineScope
 
 The app ensures smooth navigation, a modern user experience, and adherence to robust coding principles like DRY and OOP. State management is efficiently handled using the BLoC pattern to maintain scalability and performance.
